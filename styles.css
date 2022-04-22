@@ -390,3 +390,11 @@ footer ul li {
     }      
 }  
 
+/* ANIMACION */
+.animacion{
+    transition: transform 2s, width 2s;  
+}
+
+.animacion:hover{ 
+    transform: scale(1.3);
+}

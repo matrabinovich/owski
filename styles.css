@@ -209,7 +209,6 @@ footer ul li {
 /*---FRAGANCIAS---*/
 
 .padreFragancia{
-    width: auto;
     display: grid;
     grid-template-areas: 
         "encabezado"

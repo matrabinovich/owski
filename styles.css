@@ -8,11 +8,11 @@
     src: url(fonts/CaviarDreams.ttf);
 }
 
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+} */
 
 
 /*---INDEX---*/
@@ -38,12 +38,15 @@ header{
     padding: 15px;
     background-color: #F1DACF;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     grid-area:encabezado;
 }
-
+.logo{
+    display: flex;
+    flex-direction: column;
+}
 header h1{
     font-family: adelia;
     font-size: 70px;
@@ -83,6 +86,7 @@ iframe{
 .card{
     margin: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
     grid-area: cards;
@@ -187,10 +191,13 @@ footer{
     border-radius: 15px;
     padding: 10px;
     margin: 15px;
+    
+}
+.pie{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    grid-area: pie;
 }
 footer ul{
     list-style: none;
@@ -356,7 +363,12 @@ footer ul li {
     background-size:cover;
     grid-area: frag10;
 }
-@media(max-width:320px){
+a{
+    color: black;
+}
+
+
+/* @media(max-width:320px){
     .padreIndex{
         grid-template-areas: 
             "encabezado "
@@ -387,7 +399,7 @@ footer ul li {
     footer ul {
         flex-wrap: wrap;
     }      
-}  
+}   */
 
 /* ANIMACION */
 .animacion{

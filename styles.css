@@ -60,6 +60,11 @@ header h4{
     margin: 1px; 
 }
 
+.logo{
+    height: 130px;
+    width: 130px;
+}
+
 .nav{
     width: 100%;
     margin: 10px;
@@ -83,73 +88,44 @@ iframe{
     margin: 15px;
     grid-area: video;
     align-items: center;
+    height: 500px;
 }
-.card{
-    margin: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    grid-area: cards;
-}
+
+    
+
 .cardBoton{
     padding: center;
 }
 
-.cardVelas{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    display:inline-block;/*modificar con flexbox*/
-    background-image: url(imagenes/velas.JPG) ;
-    background-size: cover ;
-    
-}
 
-.cardPerfumes{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    display:inline-block;/*modificar con flexbox*/
-    background-image: url(imagenes/perfumes.JPG) ;
-    background-size: cover ;
-    
-}
 
-.cardDifusores{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    display:inline-block;/*modificar con flexbox*/
-    background-image: url(imagenes/difusores.JPG) ;
-    background-size: cover ;
-    
-}
-
-.cardTexto{
+.card2{
+    border: 10px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
     background-color:rgba(190, 157, 138, 0.7);
-    font-family: caviarDreams;
-    border-radius: 15px;
-    padding: 5px;
-    color: black;
-    align-items: center;
-    
+    border-radius: 30px;
 }
+.cardTexto2{
+    font-family: caviarDreams
+}
+.cardImg{
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.card-header{
+    background-color:rgba(190, 157, 138, 0.7);
+}
+
+.text-center{
+    border: 0.3px solid black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
 
 .cardBoton{
     text-decoration: none;
@@ -159,6 +135,7 @@ iframe{
     padding: 5px;
     display:inline-block;
     margin: 10px;
+    
 }
 
 
@@ -166,7 +143,7 @@ a{
     text-decoration: none;
 }
 
-.quienesSomos{
+p{
     font-family: caviarDreams;
     text-align: center;
     margin: 10px;
@@ -190,7 +167,7 @@ footer{
     background-color: #726D6F;
     text-decoration: none;
     border-radius: 15px;
-    padding: 10px;
+    margin-top: 10px;
     margin: 15px;
     
 }
@@ -216,14 +193,7 @@ footer ul li {
 
 /*---FRAGANCIAS---*/
 
-.padreFragancia{
-    display: grid;
-    grid-template-areas: 
-        "encabezado"
-        "aromas"
-        "pie" ;
-    width: max-content;
-}  
+
 
 .fragancias{
     grid-area: aromas;
@@ -234,136 +204,7 @@ footer ul li {
         ". frag9 frag10 .";
 } 
 
-.citronela{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/citronela.jpeg) ;
-    background-size: cover;
-    grid-area: frag1;
-}
-.citrus{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/citrus.jpeg) ;
-    background-size: cover ;
-    grid-area: frag2;
-}
-.cocoVainilla{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/cocoVainilla.jpeg) ;
-    background-size: cover ;
-    grid-area: frag3;
-}
-.floresBlancas{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/floresBlancas.jpeg) ;
-    background-size: cover ;
-    grid-area: frag4;
-}
-.magnolia{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/magnolia.jpeg) ;
-    background-size: cover ;
-    grid-area: frag5;
-}
-.manzanaCanela{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/manzanaCanela.jpeg) ;
-    background-size:cover ;
-    grid-area: frag6;
-}
-.tilo{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/tilo.jpeg) ;
-    background-size:cover;
-    grid-area: frag7;
-}
-.maderaFresia{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/maderaFresias.png) ;
-    background-size:cover;
-    grid-area: frag8;
-}
-.romeroJazmin{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/romeroJazmin.jpg) ;
-    background-size:cover;
-    grid-area: frag9;
-}
-.incienso{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    background-image: url(../owski/imagenes/fragancias/incienso.png) ;
-    background-size:cover;
-    grid-area: frag10;
-}
+
 a{
     color: black;
 }
@@ -408,5 +249,5 @@ a{
 }
 
 .animacion:hover{ 
-    transform: scale(1.3);
+    transform: scale(1);
 }

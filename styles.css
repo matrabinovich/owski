@@ -132,32 +132,22 @@ footer{
     background-color: #726D6F;
     text-decoration: none;
     border-radius: 15px;
-    margin-top: 10px;
-    margin: 15px;
-    
+    margin: 0px;
+   
 }
-.pie{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-footer ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 
 
-}
+
+
 footer ul li {
     text-decoration: none;
     font-family: caviarDreams;
+    display: flex;
+    align-content: center;
 }
-footer img{
-    height: 70px;
-    width: auto;
-}
+
+
+
 
 /*---FRAGANCIAS---*/
 

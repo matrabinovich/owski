@@ -68,7 +68,7 @@
     justify-content:space-evenly ;
     background-color:rgba(190, 157, 138, 0.7);
     border-radius: 30px;
-    
+    justify-items: center;
 }
 .cardTexto2{
     font-family: caviarDreams;
@@ -139,14 +139,14 @@ footer{
 .pie{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 footer ul{
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
 
 }
@@ -154,7 +154,10 @@ footer ul li {
     text-decoration: none;
     font-family: caviarDreams;
 }
-
+footer img{
+    height: 70px;
+    width: auto;
+}
 
 /*---FRAGANCIAS---*/
 
@@ -222,7 +225,3 @@ a{
     transform: scale(1.3);
 }
 
-.carrusel{
-    width: 700px;
-    height: 750px;
-}

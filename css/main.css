@@ -1,0 +1,121 @@
+@font-face {
+    font-family: adelia;
+    src: url(fonts/adelia.ttf); }
+
+@font-face {
+    font-family: caviarDreams;
+    src: url(fonts/CaviarDreams.ttf); }
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+/*---INDEX---*/
+.padreIndex {
+    display: grid;
+    grid-template-areas: "encabezado encabezado encabezado" ". video ." "cards cards cards" "quienesSomos quienesSomos quienesSomos" "pie pie pie"; }
+
+/* ____HEADERV____ */
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: rgba(190, 157, 138, 0.7); }
+
+.textoNav {
+    font-family: caviarDreams; }
+
+.imgLogo {
+    width: 100px;
+    height: 80px; }
+
+/*---MAIN---*/
+.cardBoton {
+    align-items: center; }
+
+.card2 {
+  border: 10px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(190, 157, 138, 0.7);
+  border-radius: 30px;
+  justify-items: center; }
+
+.cardTexto2 {
+  font-family: caviarDreams;
+  text-align: center; }
+
+.cardImg {
+  margin-top: 10px;
+  border-radius: 15px; }
+
+.card-header {
+  background-color: rgba(190, 157, 138, 0.7); }
+
+.text-center {
+  border: 0.3px solid black;
+  border-radius: 15px;
+  margin: 10px; }
+
+.cardBoton {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 5px;
+  display: inline-block;
+  margin: 10px; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-family: caviarDreams;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  grid-area: quienesSomos; }
+
+form {
+  margin: 15px; }
+
+h2 {
+  margin: 15px; }
+
+table {
+  margin: 15px; }
+
+footer {
+  background-color: #726D6F;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 0px; }
+
+footer ul li {
+  text-decoration: none;
+  font-family: caviarDreams;
+  display: flex;
+  align-content: center; }
+
+/*---FRAGANCIAS---*/
+.fragancias {
+  grid-area: aromas;
+  display: grid;
+  grid-template-areas: "frag1 frag2 frag3 frag4" "frag5 frag6 frag7 frag8" ". frag9 frag10 ."; }
+
+.productosSeccion {
+  font-family: caviarDreams;
+  font-size: 30px;
+  margin-top: 60px;
+  text-align: left; }
+
+/* ANIMACION */
+.animacion {
+  transition: transform 1s, width 2s; }
+
+.animacion:hover {
+  transform: scale(1.3); }

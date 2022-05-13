@@ -125,7 +125,6 @@ table{
 }
 
 footer{
-    
     text-decoration: none;
     border-radius: 15px;
     margin: 0px;
@@ -180,7 +179,7 @@ footer{
     transform: scale(1.3);
 }
 
-
+/* MAP */ 
 $colores:("header":rgba(190, 157, 138, 0.7), "footer":#726D6F, "card":#B57EDC);
 @each $name, $color in $colores{
     .fondo-#{$name}{
@@ -188,3 +187,27 @@ $colores:("header":rgba(190, 157, 138, 0.7), "footer":#726D6F, "card":#B57EDC);
     }
 }
 
+/*EXTEND*/
+
+.texto{
+    font-family: caviarDreams;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.texto--card{
+    @extend .texto;
+    font-size: 20px;
+    font-family: adelia;
+}
+
+/*MIXIN*/
+
+@mixin flexbox ($direction, $justify){
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+    .div1{
+        @include flexbox(row,center )
+    }

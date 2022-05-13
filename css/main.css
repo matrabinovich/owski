@@ -1,10 +1,10 @@
 @font-face {
-    font-family: adelia;
-    src: url(fonts/adelia.ttf); }
+  font-family: adelia;
+  src: url(fonts/adelia.ttf); }
 
 @font-face {
-    font-family: caviarDreams;
-    src: url(fonts/CaviarDreams.ttf); }
+  font-family: caviarDreams;
+  src: url(fonts/CaviarDreams.ttf); }
 
 /* *{
     margin: 0px;
@@ -13,35 +13,30 @@
 } */
 /*---INDEX---*/
 .padreIndex {
-    display: grid;
-    grid-template-areas: "encabezado encabezado encabezado" ". video ." "cards cards cards" "quienesSomos quienesSomos quienesSomos" "pie pie pie"; }
+  display: grid;
+  grid-template-areas: "encabezado encabezado encabezado" ". video ." "cards cards cards" "quienesSomos quienesSomos quienesSomos" "pie pie pie"; }
 
 /* ____HEADERV____ */
 .menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 15px;
-    background-color: rgba(190, 157, 138, 0.7); }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px; }
 
 .textoNav {
-    font-family: caviarDreams; }
+  font-family: caviarDreams; }
 
 .imgLogo {
-    width: 100px;
-    height: 80px; }
+  width: 100px;
+  height: 80px; }
 
 /*---MAIN---*/
-.cardBoton {
-    align-items: center; }
-
 .card2 {
   border: 10px solid white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: rgba(190, 157, 138, 0.7);
   border-radius: 30px;
   justify-items: center; }
 
@@ -90,7 +85,6 @@ table {
   margin: 15px; }
 
 footer {
-  background-color: #726D6F;
   text-decoration: none;
   border-radius: 15px;
   margin: 0px; }
@@ -119,3 +113,12 @@ footer ul li {
 
 .animacion:hover {
   transform: scale(1.3); }
+
+.fondo-header {
+  background-color: rgba(190, 157, 138, 0.7); }
+
+.fondo-footer {
+  background-color: #726D6F; }
+
+.fondo-card {
+  background-color: #B57EDC; }

@@ -107,6 +107,10 @@ footer ul li {
   margin-top: 60px;
   text-align: left; }
 
+a:hover {
+  background-color: lightgray;
+  border-radius: 20px; }
+
 /* ANIMACION */
 .animacion {
   transition: transform 1s, width 2s; }

@@ -160,7 +160,6 @@ footer{
 
 
 
-
 .productosSeccion{
     font-family: caviarDreams;
     font-size: 30px;
@@ -168,7 +167,13 @@ footer{
     text-align: left;
 }
 
+a:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+}
+a:active{
 
+}
 
 /* ANIMACION */
 .animacion{

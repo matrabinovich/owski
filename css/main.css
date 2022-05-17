@@ -6,11 +6,11 @@
   font-family: caviarDreams;
   src: url(fonts/CaviarDreams.ttf); }
 
-/* *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-} */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
 /*---INDEX---*/
 .padreIndex {
   display: grid;

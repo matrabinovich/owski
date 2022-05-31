@@ -42,7 +42,8 @@
 
 .cardTexto2 {
   font-family: caviarDreams;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 .cardImg {
   margin-top: 10px;
@@ -86,8 +87,8 @@ table {
 
 footer {
   text-decoration: none;
-  border-radius: 15px;
-  margin: 0px; }
+  margin: 0px;
+  width: 100%; }
 
 footer ul li {
   text-decoration: none;
@@ -105,7 +106,8 @@ footer ul li {
   font-family: caviarDreams;
   font-size: 30px;
   margin-top: 60px;
-  text-align: left; }
+  text-align: left;
+  width: 100%; }
 
 a:hover {
   background-color: lightgray;

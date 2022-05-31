@@ -85,16 +85,20 @@ h2 {
 table {
   margin: 15px; }
 
-footer {
+.footer {
   text-decoration: none;
   margin: 0px;
-  width: 100%; }
+  width: 100%;
+  border-radius: 0px; }
 
 footer ul li {
   text-decoration: none;
   font-family: caviarDreams;
   display: flex;
   align-content: center; }
+
+.footerr {
+  margin: 0px; }
 
 /*---FRAGANCIAS---*/
 .fragancias {

@@ -53,9 +53,11 @@
   background-color: rgba(190, 157, 138, 0.7); }
 
 .text-center {
-  border: 0.3px solid black;
-  border-radius: 15px;
-  margin: 10px; }
+  border: 0.3px solid black; }
+
+h1 {
+  font-family: caviarDreams;
+  text-align: center; }
 
 .cardBoton {
   text-decoration: none;
@@ -84,21 +86,6 @@ h2 {
 
 table {
   margin: 15px; }
-
-.footer {
-  text-decoration: none;
-  margin: 0px;
-  width: 100%;
-  border-radius: 0px; }
-
-footer ul li {
-  text-decoration: none;
-  font-family: caviarDreams;
-  display: flex;
-  align-content: center; }
-
-.footerr {
-  margin: 0px; }
 
 /*---FRAGANCIAS---*/
 .fragancias {
